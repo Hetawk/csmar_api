@@ -17,5 +17,8 @@ prettytable>=3.0.0
 # Environment variable management
 python-dotenv>=1.0.0
 
+# Progress bars (optional but recommended)
+tqdm>=4.66.0
+
 # Note: csmarapi must be installed separately from CSMAR website
 # Download: https://data.csmar.com/static/python_3.6.0.rar

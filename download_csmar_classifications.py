@@ -51,8 +51,8 @@ except ImportError:
     sys.exit(1)
 
 # Configuration
-# On Windows, output to local 'output' folder for easy transfer
-OUTPUT_DIR = Path(__file__).resolve().parent / "output"
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+OUTPUT_DIR = PROJECT_ROOT / "dataset"
 
 # Load credentials from environment variables (set in .env file)
 # Your CSMAR username/email/phone
